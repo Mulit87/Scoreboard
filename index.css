@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: #1d3557;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#points1, #points2{
+    padding: 20px;
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.plusPoints{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#button {
+    padding: 5px;
+    background-color: #1d3557;
+    color: #a8dadc;
+    border: 1px solid #a8dadc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#button:hover{
+    background-color: #0077b6;
+}
+
+#resetButton{
+    margin: auto 0px;
+}
+
+#reset{
+    background-color: #1d3557;
+    color: #a8dadc;
+    border: 1px solid #a8dadc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#reset:hover {
+    background-color: #0077b6;
+}
